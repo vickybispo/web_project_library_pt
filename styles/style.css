@@ -1,0 +1,132 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  height: 80px;
+  width: 58px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  max-width: 635px;
+  margin: 128px 0 0;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 515px;
+  margin: 32px 0 0;
+}
+
+.header__image {
+  width: 100%;
+  max-width: 636px;
+  margin: 0 0 0 40px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.staff__cards {
+  display: flex;
+  max-width: 760px;
+  margin: 68px auto 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+.staff__title {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: lighter;
+  text-align: center;
+}
+.staff__subtitle {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: lighter;
+  margin-top: 10px;
+  text-align: center;
+}
+.card {
+  display: flex;
+  width: 360px;
+  min-height: 420px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card__footer {
+  margin-top: auto;
+}
